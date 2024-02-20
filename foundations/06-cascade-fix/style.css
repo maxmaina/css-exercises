@@ -10,7 +10,7 @@ body {
 
 .small-para {
   font-size: 14px;
-  font-weight: 800;
+
 }
 
 .para {
@@ -24,10 +24,11 @@ body {
 } 
 
 .button {
+
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
