@@ -7,3 +7,9 @@
 .long {
     background-color: yellow;
 }
+
+.short,
+.long {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman' , sans-serif;
+}
