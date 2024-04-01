@@ -79,16 +79,8 @@ button.cancel {
   justify-content: space-between;
   align-items: center;
   font-weight: 900;
-  flex-shrink: 1;
-}
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  margin: 8px;
-  gap: 8px;
-
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .text {
