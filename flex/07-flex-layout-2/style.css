@@ -8,13 +8,19 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 72px;
+  font-size: 32px;
+  font-weight: 900;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 72px;
@@ -32,4 +38,5 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
 }
