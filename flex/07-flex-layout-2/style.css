@@ -29,6 +29,7 @@ body {
 }
 
 .sidebar {
+  padding-right: 16px;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
@@ -38,4 +39,24 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-shrink: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
